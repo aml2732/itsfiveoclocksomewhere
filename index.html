@@ -1,0 +1,26 @@
+<html>
+<head>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body onload="init()">
+  <h1 class="title">It is 5 O'Clock Somewhere</h1>
+  <div class="fiveoclock">
+    <div>
+      <h2>Current Local Time</h2>
+      <div><b>Current ISO Time (Now):</b></div>
+      <div id="isoHook"></div>
+      <div><b>Detected Zone Name: </b></div>
+      <div id="zoneNameHook"></div>
+      <div><b>Now in current time</b></div>
+      <div id="formattedCurrentTimeHook"></div>
+      <h2>Where is it 5 O'Clock?</h2>
+      <div id="resultsHook"></div>
+    </div>
+    <div>
+      <img src="./images/fivesomewhere.png" />
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
